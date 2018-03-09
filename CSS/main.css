@@ -1,0 +1,57 @@
+div.mainDiv{
+  margin-top: 100px;
+  height: 400px;
+  background:white;
+  display: flex;
+  justify-content: space-around;
+
+}
+div.sub1{
+  height: 250px;
+  background: red;
+  border-radius: 10px;
+  box-shadow: 2px 5px 0 0 black;
+}
+div.sub2{
+  height: 250px;
+  background: green;
+  border-radius: 10px;
+  box-shadow: 2px 5px 0 0 black;
+
+}
+div.sub3{
+  height: 250px;
+  background: blue;
+  border-radius: 10px;
+  box-shadow: 2px 5px 0 0 black;
+}
+body{
+  background:#BAF1AD
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+@media all   {
+
+}
